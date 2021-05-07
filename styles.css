@@ -372,6 +372,35 @@ td{
   color: #810000;
   font-size: 60px;
 }
+/* Chocolates */
+.chocolates{
+  background: radial-gradient(#fff,#abeb8e);
+  padding: 15px;
+  text-align: center;
+}
+.chocolate{
+  font-family: 'Anton', sans-serif;
+  color: #9e321f;
+  font-size: 70px;
+}
+
+.chocolate-p{
+  font-family: 'Sacramento', cursive;
+  color: #ff8c08;
+  font-size: 50px;
+}
+/* Biscuit and cookies */
+.cookies{
+  font-family: 'Brush Script MT',cursive ;
+  color: #810000;
+  font-size: 50px;
+}
+/* DAL,OIL */
+.dal{
+  font-family: 'Sacramento', cursive;
+  color: #000000;
+  font-size: 45px;
+}
 .icon{
   margin: 5px;
   padding: 5px;
