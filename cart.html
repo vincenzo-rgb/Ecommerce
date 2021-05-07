@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Mart | Ecommerce Website Design</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+
+      <div class="navbar">
+
+        <div class="logo">
+
+          <a><img src="photo/logo.png" width="125px">
+          </a>
+
+        </div>
+        <div class="">
+          <nav class="navbar navbar-light bg">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-lg dropdown-toggle" type="button" data-toggle="dropdown">SHOP BY CATEGORY <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="Fruits.html">Fruits</a></li>
+            <li><a href="vegetable.html">Vegetables</a></li>
+            <li><a href="#">Cold Drink</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">FOODGRAINS OIL & MASALA</a></li>
+            <li><a href="#">MASK AND SANITIZER</a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="photo/cartr-png-20.png" width="30px" height="30px"></a>
+        <img src="photo/pinpng.com-hamburger-menu-png-2165464.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+  </div>
+
+    <!---------cart item----->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+        </table>
+    </div>
+
+    <!----------footer------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <button type="button" class="btn btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+              <button type="button" class=" btn btn-light download-button"><i class="fab fa-google-play"></i> Download</button>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="photo/logo.png">
+            <p>Our Purpose is to sustainably make the pleasure and benefits of food items to the many</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Return Policy</li>
+              <li>Terms & Condition</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <footer  >
+              <div>
+
+              <a href="https://m.facebook.com/shreya.shaw.5059?ref=dbl"><i class="social-icon fab fa-facebook-f icon"> </i></a>
+              <a href="#"><i class="social-icon fab fa-twitter icon"> </i></a>
+              <a href="#"><i class="social-icon fab fa-instagram icon"> </i></a>
+              <a href="#"><i class="social-icon fas fa-envelope icon"> </i></a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <hr>
+
+      </div>
+    </div>
+    <div>
+      <p class="copyright">© Copyright 2021 - food mart</p>
+    </div>
+    <!------------js for toggle menu---->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+  </body>
+
+  </html>

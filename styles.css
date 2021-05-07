@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    max-height: fit-content;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 400px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 5px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn1{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+
+.dropdown .btn{
+  background-color: #9ede73;
+}
+.dropdown .btn:hover{
+  background-color: #91c788;
+}
+.btn-outline-success{
+  background-color:  #9ede73;
+}
+.btn1:hover{
+    background: #91c788;
+}
+.header{
+    background: radial-gradient(#fff,#abeb8e);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 5px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 100px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 30px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-4{
+    flex-basis: 25%;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.testimonial .col-4 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col-4 p{
+    font-size: 18px;
+    color: #777;
+    margin: 12px 0;
+
+}
+
+.testimonial .col-4 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+/*-----------brands------------*/
+.brands{
+    margin: 100px auto;
+}
+
+.col-5{
+    width: 160px;
+}
+
+/*------footer-----*/
+.footer{
+    background: rgb(68, 67, 67);
+    color: #8a8a8a;
+    font-size-adjust: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: none;
+}
+
+/*-----media query for menu-------*/
+@media screen and (max-device-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+/*-----media query for less than 600 screen size-------*/
+@media screen and (max-device-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+}
+#press{
+    background-color: #fff;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:
+}
+#home{
+  text-align: center;
+
+}
+#testimonials{
+  background: radial-gradient(#fff,#abeb8e);
+  text-align: center;
+}
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  /*font-family: 'Pacifico', cursive;*/
+  font-family: 'Sacramento', cursive;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.container-fluid{
+  padding: 7% 10%;
+}
+td{
+   margin: 1%;
+}
+.offer{
+  background-color: #ffe6ca;
+}
+
+.off{
+  font-size: 60px;
+}
+.welcome{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+}
+.dropdown-menu{
+  background-color: #f3f4ed;
+  padding: 15px;
+  line-height: 2rem;
+}
+#home .col-2{
+  max-width: 150%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.icon{
+  color: #fff;
+}
+.icon:hover{
+  color: black;
+}
+/* Fruits and vegetables */
+.fruits{
+  background: radial-gradient(#fff,#abeb8e);
+  padding: 15px;
+  text-align: center;
+}
+.mango{
+  font-family: 'Anton', sans-serif;
+  color: #fdca40;
+  font-size: 70px;
+
+}
+.mango-p{
+  font-family: 'Sacramento', cursive;
+  color: #fdca40;
+  font-size: 50px;
+}
+.Apple{
+  font-family: 'Anton', sans-serif;
+  color: #810000;
+  font-size: 80px;
+
+
+}
+.Apple-p{
+  font-family: 'Sacramento', cursive;
+  color: #810000;
+  font-size: 60px;
+}
+.icon{
+  margin: 5px;
+  padding: 5px;
+}
+.price{
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+}
+ .img-responsive {
+    width: 100%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.fast-delivery{
+  background-color: #1597bb;
+}
+.fast-img{
+  padding: 5px;
+  width: 250px;
+  height: 150px;
+  margin-left: 100px;
+}
+.free{
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+.box{
+  border-style: inset;
+  padding: 20px;
+
+}
+.pic{
+  width: 150px;
+  height: 200px;
+  padding: 5%;
+}
+/* vegetable */
+.col-2 .veg-img{
+max-width: 130%;
+}
+@media screen and (max-device-width: 800px){
+  .col-2 .veg-img{
+  max-width: 70%;
+  }
+  .col-2 img{
+      max-width: 60%;
+    }
+    .mango{
+      font-size: 60px;
+    }
+    .Apple{
+      font-size: 60px;
+    }
+    .fast-img{
+      padding: 5px;
+      width: 150px;
+      height: 100px;
+      text-align: center;
+      margin: 0;
+    }
+    .off{
+      font-size: 40px;
+    }
+    .testimonial-text{
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      /*font-family: 'Pacifico', cursive;*/
+      font-family: 'Sacramento', cursive;
+
+    }
+    h4{
+      font-size: 1rem;
+    }
+}
+.veg{
+  font-size: 50px;
+  color: #012c0b;
+}
+.veg-p{
+  font-family: 'Sacramento', cursive;
+  color: #012c0b;
+  font-size: 40px;

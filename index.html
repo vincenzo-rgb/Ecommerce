@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Mart | Ecommerce Website Design</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+
+      <div class="navbar">
+
+        <div class="logo">
+
+          <a><img src="photo/logo.png" width="125px">
+          </a>
+
+        </div>
+        <div class="">
+          <nav class="navbar navbar-light bg">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-lg dropdown-toggle" type="button" data-toggle="dropdown">SHOP BY CATEGORY <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="Fruits.html">Fruits</a></li>
+            <li><a href="vegetable.html">Vegetables</a></li>
+            <li><a href="#">Cold Drink</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">FOODGRAINS OIL & MASALA</a></li>
+            <li><a href="#">MASK AND SANITIZER</a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="photo/cartr-png-20.png" width="30px" height="30px"></a>
+        <img src="photo/pinpng.com-hamburger-menu-png-2165464.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <h1 class="welcome">Welcome to our Grocery Shop</h1>
+      <section id="home">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Eat the best!</h1>
+            <h3>Eating healthy food fills your body with energy and nutrients. Imagine your cells smiling back at you and saying: “Thank you!”.</h3>
+            <a href="" class="btn1">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="photo/homepic.png">
+          </div>
+        </div>
+      </section>
+    </div>
+  </div> <br>
+  <div class="fast-delivery">
+<div class="row">
+  <div class="col-lg-6">
+    <img class="fast-img" src="photo/fast-delivery.png" alt="">
+  </div>
+  <div class="col-lg-6">
+
+    <p class="free">FREE HOME DELIVERY ABOVE 499 RS</p>
+  </div>
+</div>
+  </div>
+  <section class="offer">
+
+    <div id="testimonials-carousel" class="carousel slide " data-ride="true">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="small-container">
+            <div class="row">
+
+              <div class="col-2">
+                <h3>Exclusive offer on</h3>
+                <h1>Cold Drinks</h1>
+                <h2 class="off"> <strong>upto 30% off</strong></h2>
+                <a href="" class="btn1">Buy Now </a>
+              </div>
+              <div class="col-2">
+                <img src="photo/colddrinks-png-8595.png" class="offer-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="small-container">
+            <div class="row">
+              <div class="col-2">
+                <h3>Exclusive offer on</h3>
+                <h1>Mask and Sanitizer</h1>
+                <h2 class="off"> <strong>upto 20% off</strong></h2>
+                <a href="" class="btn1">Buy Now </a>
+              </div>
+              <div class="col-2">
+                <img src="photo/sanitizer1.png" class="offer-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!--------------featured categories------------>
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.1mViyZpY54GvwRKwSqhiOwHaFX&pid=Api&P=0&w=223&h=163">
+        </div>
+        <div class="col-3">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.kL9PZTcnAxaoRUZQ1RQE7QHaGQ&pid=Api&P=0&w=209&h=177">
+        </div>
+        <div class="col-3">
+          <img src="https://bl.thgim.com/migration_catalog/to7oot-CT02PACKS/alternates/LANDSCAPE_435/CT02PACKS">
+        </div>
+        <div class="col-3">
+          <img src="https://miro.medium.com/max/1200/1*pEN__gAUWLpGtPtPbJj1Bg.jpeg">
+        </div>
+        <div class="col-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81-JBU6TAWL._SX679_.jpg">
+        </div>
+        <div class="col-3">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.II7K0ffZY6aEeaF00rjWmgHaHa&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div class="col-3">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.VXnrmlnmeBfKmsbeaAgN1wHaE7&pid=Api&P=0&w=268&h=179" alt="">
+        </div>
+        <div class="col-3">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.1fT3DlX7UMo0fQAPAKNTlgHaDb&pid=Api&P=0&w=332&h=154" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------fruits product-------->
+  <div class="small-container">
+    <h1 class="title">Fruits</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="photo/Apple.jpg">
+        <h4>Apple</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.00</p>
+      </div>
+      <div class="col-4">
+        <img src="photo/banana.jpg">
+        <h4>Banana</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.00</p>
+      </div>
+      <div class="col-4">
+        <img src="photo/WaterLemon.jpg">
+        <h4>WaterLemon</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://www.organicfacts.net/wp-content/uploads/pineapplecalories.jpg">
+        <h4>Pineapple</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.00</p>
+      </div>
+    </div>
+    <h1 class="title">Vegetables</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://images.all-free-download.com/images/graphicthumb/potatoes_highdefinition_picture_4_167260.jpg">
+        <h4>Potatoes</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://bharatiya.co/wp-content/uploads/2020/05/Brinjal-e1593753418996.jpg">
+        <h4>Brinjal</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://i2.wp.com/mybhajimarket.in/wp-content/uploads/2020/05/DSZ3QJKNEemAReTQBvV5xA-EX5FfoVyEeqnCGSnO3fuiA.jpeg?fit=1200%2C1200&ssl=1">
+        <h4>Green Chillies</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://www.ayurtimes.com/wp-content/uploads/2014/11/onion.jpg">
+        <h4>Onion</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.50</p>
+      </div>
+    </div>
+
+    <h1 class="title">Snacks</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://image3.mouthshut.com/images/imagesp/925042346s.jpg">
+        <h4>Maggi</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://5.imimg.com/data5/ES/FV/WY/SELLER-93160461/cadbury-dairy-milk-chocolate-500x500.jpg">
+        <h4>Dairy Milk Chocolate</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81X7W2BrGaL._SL1500_.jpg">
+        <h4>Lays</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://5.imimg.com/data5/EH/AN/MM/SELLER-20267494/oreo-biscuit-500x500.jpg">
+        <h4>Oreo Biscuit</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.00</p>
+      </div>
+    </div>
+    <h1 class="title">Cold Drinks</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61QKKsgtVqL._SX425_.jpg">
+        <h4>Coca-Cola Soft Drink-<br>Original Taste, 1.25 L Pet Bottle</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$6.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51nsRrB3tgL._SL1000_.jpg">
+        <h4>Maaza Mango Drink,<br> 1.5 LTR Bottle</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$5.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://www.bigbasket.com/media/uploads/p/l/40058826_5-jeeru-masala-jeera.jpg">
+        <h4>Jeeru Masala -500 ml</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$3.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61rnn7q%2BKXL._SL1500_.jpg">
+        <h4>Mountain Dew <br>Multi Serve Pet, 2.25L</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$6.00</p>
+      </div>
+    </div>
+    <h1 class="title">Cooking Materials</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://5.imimg.com/data5/DS/WE/GLADMIN-17396827/aashirvaad-atta-5-kg-500x500.png">
+        <h4>Aashirvaad Atta 5 Kg</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$7.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://rukminim1.flixcart.com/image/416/416/k7usyvk0/edible-oil/e/t/c/1-sunlite-refined-pouch-sunflower-oil-fortune-original-imafpzwhyyhhvzbk.jpeg?q=70">
+        <h4>Fortune Sunlite Refined <br>Sunflower Oil Pouch 1L</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$5.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61n1hm72dlL._SX425_.jpg">
+        <h4>Tata Sal - 1Kg</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$1.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://m.media-amazon.com/images/I/91znE5OqTTL._SL1500_.jpg">
+        <h4>India Gate Basmati Rice Super, 1kg</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$7.00</p>
+      </div>
+    </div>
+    <h1 class="title">Sanitizer</h1>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51yLIxvuKGL._SX466_.jpg">
+        <h4> Lifebuoy Alcohol Based Hand Sanitizer 500ml </h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$3.00</p>
+      </div>
+      <div class="col-4">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/616XUIwvAzL._SX679_.jpg">
+        <h4>Dettol Original Germ Protection Handwash Liquid Soap Pump, 200ml</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.50</p>
+      </div>
+      <div class="col-4">
+        <img src="https://m.media-amazon.com/images/I/61HboWwW2pL._AC_UL480_FMwebp_QL65_.jpg">
+        <h4>Venus V 4400 N95 Mask (Pack of 10)</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>$2.0</p>
+      </div>
+      <div class="col-4">
+        <img src="http://d2s8edsvfzlfgk.cloudfront.net/images/detailed/11/image_8_vwxj-td.jpg?t=1581135449">
+        <h4>Dettol Antiseptic Disinfectant liquid for First aid, <br>Surface Cleaning and Personal Hygiene, 1000 ML</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$3.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- testimonial -->
+  <section id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <i class="fa fa-quote-left"></i>
+          <h3 class="testimonial-text">This is the best local independently owned health food store in India.
+            They will have the best prices and you will be able to find the most unique hard to find items here as well.
+            You will feel much better supporting a local company. </h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <img class="testimonial-image"
+            src="https://scontent.fccu9-1.fna.fbcdn.net/v/t1.6435-0/c0.0.304.304a/p180x540/164243143_2859002941084106_8105704615568054710_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=da31f3&_nc_ohc=xqg4WIEttVEAX96DGhS&_nc_ht=scontent.fccu9-1.fna&tp=27&oh=71c93059eb641a4d8b673dcae51a199d&oe=6096C81F">
+          <h3>Rohit Ray</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <i class="fa fa-quote-left"></i>
+          <h3 class="testimonial-text">This is the best local independently owned health food store in India.
+            They will have the best prices and you will be able to find the most unique hard to find items here as well.
+            You will feel much better supporting a local company.</h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+
+          <img class="testimonial-image"
+            src="https://scontent.fccu9-1.fna.fbcdn.net/v/t1.6435-9/c0.0.934.934a/s851x315/129216545_1310150806008351_4850355294974758516_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=da31f3&_nc_ohc=coANQQiZsN4AX9omLV4&_nc_ht=scontent.fccu9-1.fna&tp=28&oh=a4a2a98a5ae6203259f76fdc19136585&oe=609511F4">
+          <h3>Shruti Shah</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <i class="fa fa-quote-left"></i>
+          <h3 class="testimonial-text">This is the best local independently owned health food store in India.
+            They will have the best prices and you will be able to find the most unique hard to find items here as well.
+            You will feel much better supporting a local company. </h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+
+          <img class="testimonial-image"
+            src="https://scontent.fccu2-2.fna.fbcdn.net/v/t1.6435-9/c0.0.540.540a/171309820_328402342248858_5728548466003825580_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=0Cfy6mUe-1QAX94KjUn&_nc_ht=scontent.fccu2-2.fna&tp=29&oh=307a6d586f0f000cb268f9f7489adf35&oe=609C60BD">
+          <h3>Sneha Shaw</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <i class="fa fa-quote-left"></i>
+          <h3 class="testimonial-text">This is the best local independently owned health food store in India.
+            They will have the best prices and you will be able to find the most unique hard to find items here as well.
+            You will feel much better supporting a local company. </h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+
+          <img class="testimonial-image"
+            src="https://scontent.fccu9-1.fna.fbcdn.net/v/t1.6435-9/131426615_751272559113505_8983717170241181120_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=afJq9FVoOUIAX_jBFjS&_nc_ht=scontent.fccu9-1.fna&oh=b79361bad5b86892498e5a73959e0a88&oe=6097708D">
+          <h3>Sabita Shaw</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <i class="fa fa-quote-left"></i>
+          <h3 class="testimonial-text">This is the best local independently owned health food store in India.
+            They will have the best prices and you will be able to find the most unique hard to find items here as well.
+            You will feel much better supporting a local company. </h3>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+
+          <img class="testimonial-image"
+            src="https://scontent.fccu2-1.fna.fbcdn.net/v/t1.6435-0/s600x600/164402509_1593477461042283_2487690595950968959_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=XPM4-2cFGigAX9KyNsM&_nc_ht=scontent.fccu2-1.fna&tp=7&oh=14a14d4cc0a3527411562e8f887a5f82&oe=609DBC8F">
+          <h3>Subhabrata Panda</h3>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!---------brands------->
+  <section id="press">
+    <img class="press-logo" src="https://2.bp.blogspot.com/-7wsytzuLXPM/TvHfkRSVtcI/AAAAAAAAD4o/JHq8O0l4LLk/s1600/nestle_logo3.jpg">
+
+    <img class="press-logo" src="https://i.dlpng.com/static/png/7232608_preview.png">
+
+
+    <img class="press-logo" src="https://1000logos.net/wp-content/uploads/2016/11/Coca-Cola-Logo.png">
+
+
+    <img class="press-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9c3jh3G3J2x8ixa0RtnNQ_B1MH4qJw3E36rsxZElCukRiKBvizU8ezlmF7sKd0IDPKoQ&usqp=CAU">
+
+
+    <img class="press-logo" src="https://i.pinimg.com/originals/86/ac/46/86ac465a1ee4050e5c81aa8e8f2f8da0.jpg">
+
+
+    <img class="press-logo" src="https://ih1.redbubble.net/image.662467734.8311/raf,750x1000,075,t,FFFFFF:97ab1c12de.jpg">
+
+  </section>
+  <!----------footer------->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="app-logo">
+            <button type="button" class="btn btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class=" btn btn-light download-button"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="photo/logo.png">
+          <p>Our Purpose is to sustainably make the pleasure and benefits of food items to the many</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful links</h3>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Return Policy</li>
+            <li>Terms & Condition</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <footer  >
+            <div>
+
+            <a href="https://m.facebook.com/shreya.shaw.5059?ref=dbl"><i class="social-icon fab fa-facebook-f icon"> </i></a>
+            <a href="#"><i class="social-icon fab fa-twitter icon"> </i></a>
+            <a href="#"><i class="social-icon fab fa-instagram icon"> </i></a>
+            <a href="#"><i class="social-icon fas fa-envelope icon"> </i></a>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+  </div>
+  <div>
+    <p class="copyright">© Copyright 2021 - food mart</p>
+  </div>
+  <!------------js for toggle menu---->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
